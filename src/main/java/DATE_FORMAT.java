@@ -1,9 +1,9 @@
 import lombok.Getter;
 @Getter
 public class DATE_FORMAT {
-    int dd; //приват
-    int mm;
-    int yyyy;
+    private int dd; //ГЇГ°ГЁГўГ ГІ
+    private int mm;
+    private int yyyy;
 
     public DATE_FORMAT(int dd, int mm, int yyyy) {
         this.dd = dd;
